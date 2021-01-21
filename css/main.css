@@ -1,6 +1,8 @@
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 90%;
+    background-color: #323232;
+    color: whitesmoke;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -40,4 +42,31 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+dl {
+    display: flex;
+    justify-content:space-between;
+    width: 50%;
+}
+
+dt img {
+    width: 110px;
+}
+
+#Discord_Contact_Logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0%;
+    padding-right: 0%;
+}
+
+#test {
+    margin-right: 0%;
+    padding-left: 0%;
+}
+
+figcaption {
+    font-size: 1.35em;
 }
