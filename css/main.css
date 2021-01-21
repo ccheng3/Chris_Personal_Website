@@ -28,7 +28,11 @@ p {
     color: #333;
 }
 footer {
-    /* border-top: 0.5px solid #d5d5d5; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: 430px;
+    margin-left: -100px;
     font-size: 0.8em;
 }
 dl {
@@ -60,7 +64,7 @@ dt img {
 }
 
 #logo-list {
-    margin: 0%;
+    margin-top: 0.4em;
 }
 
 figcaption {
