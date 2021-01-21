@@ -1,0 +1,52 @@
+body {
+    margin: 30px 45px;
+    width: 90%;
+    background-color: #323232;
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li a {
+    text-decoration: none;
+    color: #999;
+}
+
+li a:hover {
+    text-decoration: underline solid #999 5px;
+}
+
+body nav {
+    font-size: 2.2em;
+}
+
+#page-nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#page-nav-bar li {
+    margin-right: 2rem;
+}
+
+body header, section {
+    font-size: 1.8em;
+}
+ 
+#hobbies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+#car-repair-pic, #apex-pic {
+    max-width: 60%;
+    height: auto;
+}
+
+figcaption {
+    color: white;
+    text-align:left;
+}
