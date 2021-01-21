@@ -52,21 +52,31 @@ dt img {
     width: 95px;
 }
 
-.circle-logo img{
+.circle-logo img {
     border-radius: 50%;
     transition-duration: 0.25s;
 }
 #email:hover {
-    /* border: 2px solid pink; */
-    box-shadow: 15px 5px 15px #5cbdea;
+    box-shadow: 0 0 15px #5cbdea;
 }
 #reddit:hover {
-    /* border: 2px solid pink; */
-    box-shadow: 15px 5px 15px #FF4500;
+    box-shadow: 0 0 20px #FF4500;
 }
 #github:hover {
-    /* border: 2px solid pink; */
-    box-shadow: 15px 5px 15px white;
+    box-shadow: 0 0 15px white;
+}
+
+.square-logo img {
+    border-radius: 10%;
+    transition-duration: 0.25s;
+}
+
+#linkedin {
+    border: 1em 0.8em;
+}
+
+#linkedin:hover {
+    box-shadow: 0 0 15px #008cc9;
 }
 
 .clickable_logo {
