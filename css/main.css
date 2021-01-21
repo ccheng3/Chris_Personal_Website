@@ -3,6 +3,13 @@ body {
     width: 90%;
     background-color: #323232;
     color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+}
+body h1 {
+    font-size:7.5em;
+}
+body nav {
+    font-size: 2.2em;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -31,8 +38,8 @@ p {
     color: #333;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    /* border-top: 0.5px solid #d5d5d5; */
+    font-size: 0.8em;
 }
 
 ul.posts { 
@@ -47,11 +54,21 @@ ul.posts li {
 dl {
     display: flex;
     justify-content:space-between;
+    align-items: center;
     width: 50%;
+    flex-direction: row-reverse;
 }
 
 dt img {
     width: 110px;
+}
+
+.clickable_logo {
+    transition-duration: 0.32s;
+}
+
+.clickable_logo:hover {
+    transform: translateY(-15px)
 }
 
 #Discord_Contact_Logo {
@@ -68,5 +85,5 @@ dt img {
 }
 
 figcaption {
-    font-size: 1.35em;
+    font-size: 1.35rem;
 }
