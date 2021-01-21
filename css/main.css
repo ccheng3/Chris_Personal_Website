@@ -5,41 +5,79 @@ body {
     color: whitesmoke;
     font-family: 'Open Sans', sans-serif;
 }
+
 body h1 {
     font-size:7.5em;
     margin-top: 0.2em;
     margin-bottom: 0.2em;
 }
+
 body nav {
     font-size: 2.2em;
 }
+
 a {
     text-decoration: none;
     color: #999;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    max-width: 50%;
 }
+
+h3 {
+    padding-left: 5%;
+}
+
+.title-and-objective {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#personal-objective {
+    font-family: 'Roboto Slab', serif;    
+    font-size: 2.1rem;
+    display: flex;
+    max-width: 50%;
+}
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
 }
+
 footer {
     position: fixed;
     top: 50%;
     left: 50%;
-    margin-top: 430px;
+    margin-top: 25em;
     margin-left: -100px;
     font-size: 1.25em;
 }
+
+#page-nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#page-nav-bar li {
+    margin-right: 2rem;
+}
+
 #contact-message {
     max-width: 900px;
 }
+
 dl {
     display: flex;
     justify-content:space-between;
