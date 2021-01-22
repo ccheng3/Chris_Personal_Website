@@ -41,6 +41,14 @@ body header, section {
     margin-top: 2%;
 }
 
+#hobbies img {
+    transition-duration: 0.3s;
+}
+
+#hobbies img:hover {
+    transform: translate(5px, -5px);
+}
+
 #car-repair-pic, #apex-pic {
     max-width: 60%;
     height: auto;
