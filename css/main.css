@@ -169,6 +169,10 @@ footer div {
 }
 
 @media (max-width: 500px) {
+    section div h1 {
+        font-size: 3.2em;
+        line-height: 1.2em;
+    }
     #logo-list {
         display: flex;
         flex-direction: column;
@@ -182,5 +186,22 @@ footer div {
     }
     #Discord-UserID {
         transform: none;
+    }
+    .title-and-objective {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+    }
+    #personal-objective {
+        font-size: 1.6em;
+        min-width: 90%;
+        margin: 2em 2em;
+    }
+    #background-porfolio-break {
+        margin: 0 auto;
+        max-width: 70%;
+    }
+    #contact-message {
+        max-width: 90%;
     }
 }
