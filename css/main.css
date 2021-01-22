@@ -7,9 +7,12 @@ body {
 }
 
 body h1 {
-    font-size:7.5em;
     margin-top: 0;
     margin-bottom: 0;
+    font-size: 6em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    max-width: 50%;
+    line-height: 0.9em;
 }
 
 body nav {
@@ -25,15 +28,7 @@ a:hover {
     text-decoration: underline solid #999 5px;
 }
 
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    max-width: 50%;
-    line-height: 0.9em;
-}
-
 h3 {
-    padding-left: 5%;
     font-size: 2.2rem;
     margin-top: 0;
 }
@@ -169,7 +164,14 @@ footer div {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: 20%;
     margin-left: -100px;
     font-size: 1.25em;
+}
+
+@media (max-width: 360px) {
+    #logo-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
