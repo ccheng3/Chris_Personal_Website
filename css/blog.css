@@ -42,11 +42,12 @@ body header, section {
 }
 
 #hobbies img {
-    transition-duration: 0.3s;
+    transition: box-shadow 0.5s, transform 0.3s;
 }
 
 #hobbies img:hover {
     transform: translate(5px, -5px);
+    box-shadow: 0 0 15px #14ffec;
 }
 
 #car-repair-pic, #apex-pic {
