@@ -46,7 +46,7 @@ body header, section {
 }
 
 #hobbies img:hover {
-    transform: translate(5px, -5px);
+    transform: scale(1.06);
     box-shadow: 0 0 15px #14ffec;
 }
 

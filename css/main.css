@@ -39,11 +39,38 @@ h3 {
     justify-content: space-between;
 }
 
+#main-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 #personal-objective {
     font-family: 'Roboto Slab', serif;    
-    font-size: 2.1rem;
+    font-size: 2.4rem;
     display: flex;
     max-width: 50%;
+}
+
+#current-job-title {
+    margin-top: 2.5rem;
+}
+
+#my-face {
+    border-radius: 50%;
+    max-width: 25%;
+}
+
+#profile-pic-and-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#vision-summary {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
 }
 
 p {
@@ -53,6 +80,7 @@ p {
 }
 
 #projects-header {
+    margin-top: 6rem;
     text-align: center;
 }
 
@@ -124,7 +152,7 @@ dt img {
 }
 
 .clickable_logo:hover {
-    transform: translateY(-15px)
+    transform: scale(1.1)
 }
 
 #Discord_Contact_Logo {
@@ -169,6 +197,7 @@ footer {
 }
 
 footer div {
+    max-width: 20%;
     position: absolute;
     top: 50%;
     left: 50%;
