@@ -67,10 +67,15 @@ h3 {
     align-items: center;
 }
 
-#vision-summary {
+.summary {
     text-align: center;
     margin-top: 2rem;
     font-size: 2rem;
+}
+
+#vision-summary::after {
+    content: "\a\a";
+    white-space: pre;
 }
 
 p {
